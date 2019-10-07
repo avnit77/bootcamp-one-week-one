@@ -1,0 +1,19 @@
+.cat-cafe{
+    background: lightblue;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*horizontal*/
+    align-items: center; /*vertical*/
+}
+.kitten {
+    display: flex;
+    height: 100px;
+    background: pink;
+    border: dotted 1px yellow;
+    align-items: center;
+}
+
+.big-kitten{
+    flex: .5
+}

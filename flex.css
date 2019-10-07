@@ -1,0 +1,31 @@
+.tower{
+    background: lightblue;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /*horizontal*/
+    align-items: center; /*vertical*/
+}
+.stripmall {
+    display: flex;
+    height: 500px;
+    background: pink;
+    border: dotted 1px yellow;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.building {
+    width: 500px;
+    border: solid 2px yellow;
+    font-size: 300%;
+    font-style: italic;
+}
+
+.castle{
+    width: 500px;
+    border: solid 2px green;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
